@@ -1,5 +1,3 @@
-import '../styles/Utility.css';
-
 const Utility = () => {
   return (
     <section id="utility" className="about">

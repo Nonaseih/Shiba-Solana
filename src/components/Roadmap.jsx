@@ -1,5 +1,3 @@
-import '../styles/Roadmap.css';
-
 const Roadmap = () => {
   return (
     <section id="roadmap" className="roadmap">

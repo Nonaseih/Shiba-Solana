@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import '../styles/Community.css';
 
 const Community = () => {
   const [email, setEmail] = useState('');

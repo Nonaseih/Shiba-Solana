@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react';
-import '../styles/Presale.css';
 
 const Presale = () => {
   const [solAmount, setSolAmount] = useState(1);

@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import '../styles/Tokenomics.css';
 
 const Tokenomics = () => {
   const [copiedAddress, setCopiedAddress] = useState(false);

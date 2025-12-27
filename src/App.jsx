@@ -6,7 +6,7 @@ import Tokenomics from './components/Tokenomics';
 import Roadmap from './components/Roadmap';
 import Community from './components/Community';
 import Footer from './components/Footer';
-import './App.css';
+import './styles.css';
 
 function App() {
   return (

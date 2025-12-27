@@ -1,36 +1,23 @@
-/* Global Styles */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;900&family=Montserrat:wght@300;400;500;600;700;800&display=swap');
 
-:root {
-    --primary-color: #b84ff0;
-    --secondary-color: #00d4d4;
-    --dark-bg: #1a0a2e;
-    --card-bg: #2d1b4e;
-    --text-primary: #ffffff;
-    --text-secondary: #c8b3e0;
-    --gradient-1: linear-gradient(135deg, #b84ff0 0%, #d96ff5 100%);
-    --gradient-2: linear-gradient(135deg, #00d4d4 0%, #00fff0 100%);
-    --gradient-3: linear-gradient(135deg, #b84ff0 0%, #00d4d4 100%);
-    --shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
-    --glow: 0 0 20px rgba(184, 79, 240, 0.6);
+@theme {
+  --font-sans: 'Montserrat', sans-serif;
+  --font-serif: 'Playfair Display', serif;
+  
+  --color-primary: #b84ff0;
+  --color-secondary: #00d4d4;
+  --color-dark: #1a0a2e;
+  --color-card: #2d1b4e;
+  --color-text-light: #c8b3e0;
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
-    background-color: var(--dark-bg);
-    color: var(--text-primary);
-    line-height: 1.6;
-    overflow-x: hidden;
-    position: relative;
-}
+  @apply font-sans bg-[#1a0a2e] text-white overflow-x-hidden relative;
 
 body::before {
     content: '';

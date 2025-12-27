@@ -1,7 +1,8 @@
 {
-  "name": "solanashiba",
+  "name": "shiba-solana",
+  "version": "1.0.0",
+  "description": "The most powerful DeFi utility token on Solana - Presale Website",
   "private": true,
-  "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -23,5 +24,21 @@
     "eslint-plugin-react-refresh": "^0.4.24",
     "globals": "^16.5.0",
     "vite": "^7.2.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Nonaseih/Shiba-Solana.git"
+  },
+  "keywords": [
+    "solana",
+    "defi",
+    "cryptocurrency",
+    "presale",
+    "token",
+    "shiba",
+    "web3",
+    "react"
+  ],
+  "author": "Shiba Solana Team",
+  "license": "MIT"
 }

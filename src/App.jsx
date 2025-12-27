@@ -6,11 +6,11 @@ import Tokenomics from './components/Tokenomics';
 import Roadmap from './components/Roadmap';
 import Community from './components/Community';
 import Footer from './components/Footer';
-import './styles.css';
+import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <div className="min-h-screen bg-[#1a0a2e] text-white">
       <Header />
       <Hero />
       <Presale />
